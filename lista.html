@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lista por hacer</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="utils.js"></script>
+    </head>
+    <body class="bg-dark bg-gradiente text-white"> 
+        <div class="container mt-5 ">
+            <div class="row">
+                <h1 class="text-center ">Lista de Cosas por Hacer</h1>
+            </div>
+            <div class="row">
+              <div class="col">
+                <input id="task-input" class="form-control form-control-lg" type="text" placeholder="Escribe una tarea" aria-label=".form-control-lg example">
+              </div>
+              <div class="col">
+                <button type="button" onclick="handleAdd()" class="btn btn-light btn-custom">Agregar Tarea</button>
+              </div>
+          </div>
+          <div class="row m-3">
+            <div class="col">
+              <h1>POR HACER</h1>
+              <ol id="todo-list" class="list-group">
+
+              </ol>
+            </div>
+            <div class="col">
+              <h1>Terminadas</h1>
+              <ol id="done-list" class="list-group">
+                
+              </ol>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>

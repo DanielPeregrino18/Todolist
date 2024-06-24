@@ -1,0 +1,18 @@
+
+  .btn-custom {
+    background-color: #787a78; /* Cambia el color de fondo */
+    padding: 11px 60px; /* Ajusta el relleno */
+    font-size: 16px; /* Ajusta el tamaño de la fuente */
+    margin-left: 10%;
+  }
+  
+  .btn-custom:hover {
+    background-color: #45a049; /* Cambia el color de fondo al pasar el ratón */
+  }
+  .btn-custom:active {
+    background-color: #45a049; 
+  }
+  
+  .clickeable {
+    cursor: pointer;
+}
